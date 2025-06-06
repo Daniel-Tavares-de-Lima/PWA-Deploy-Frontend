@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/complaints';
+const API_URL = 'https://pwa-deploy-backend-feh2.onrender.com/api/complaints'; //Meu deploy
 
 document.getElementById('complaintForm').addEventListener('submit', async (e) => {
     e.preventDefault();
